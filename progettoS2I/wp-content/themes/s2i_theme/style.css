@@ -1,0 +1,79 @@
+/*
+Theme Name: 	LT
+Description: 	Responsive WordPress Theme based on Boostrap and Font Awesome.
+Version:     	1.0.0
+Author:     	Luigi Tatonetti
+Text Domain: 	LT
+Domain Path: 	/languages
+Tags:        	grid-layout, blog, custom-menu, featured-images, right-sidebar
+License:    	GNU General Public License v3.0
+License URI:	http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+/* IMPORT HERE YOUR FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  font-family: "Playfair Display", serif;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  color: #f2f1ef !important;
+}
+
+.navbar-nav {
+	align-items: center;
+}
+
+.bg-dark {
+	background-color: #a67564 !important;
+}
+
+nav ul {
+	margin-bottom: 0;
+}
+
+nav li {
+	float: left;
+	list-style-type: none;
+	display: inline;
+}
+
+nav li a {
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #f2f1ef !important;
+	padding: 0 1rem;
+}
+nav li a:hover {
+	color: #723e31 !important;
+}
+
+footer {
+	background-color: #723e31;
+	color: #f2f1ef;
+}
+footer .btn {
+	background-color: #723e31;
+	border: none;
+}
+footer .btn:hover {
+	background-color: #a67564;
+}
+footer p {
+	margin-bottom: 0;
+	font-size: 0.7rem;
+}
+
+.not-found-h1{
+	min-height: 100wh;
+	font-family: "Playfair Display", serifn !important;
+	background-color: #a67564 !important;
+}
